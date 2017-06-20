@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+
+.demo-toggle-title {
+  margin-top: 0.5rem;
+}
+
+.top-bar {
+  width: 100%;
+}
+
+.top-bar-left {
+  display: block;
+}
+
+.menu .active {
+  font-weight: bold;
+}
+
+/* Top Nav */
+.top-nav {
+    width: 100%;
+    border-top: 3px solid #1d5ea8 !important;
+    background: #333333 !important;
+    padding: 0;
+    margin: 0;
+    color: white;
+    a {
+      color: white;
+    }
+}
+
+.top-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+
+    li{
+      list-style: none;
+      float: left;
+      padding: 10px 10px;
+      color: white;
+      font-size: 14px;
+    }
+
+    li:first-child{
+      padding-left:0;
+    }
+
+    li i{
+      padding-right: 8px;
+    }
+}
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1d5ea8;
+  border-color: #1d5ea8;
+  color: #fefefe;
+}
+
+#home {
+  width: 100%;
+  background: url('../img/images.jpg') no-repeat -100px 0;
+  min-height: 350px;
+  /* Showcase */
+    .showcase-box{
+      padding:100px 130px;
+
+      //background:blue;
+      color:white;
+      //border-top-right-radius: 10px;
+      //border-top-left-radius: 10px;
+
+      p{
+        border-bottom:1px #ccc solid;
+        padding-bottom:10px;
+      }
+      .showcase-box-bottom{
+        //background: white;
+        padding:10px 30px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+        .pricing span{
+          font-size:35px;
+          font-weight:bold;
+        }
+
+        .start-link{
+          padding-top:20px;
+
+          a{
+            color:rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+}
+
+#about {
+  h2 {
+    color: #1d5ea8 !important;
+  }
+}
+
+#service {
+  #service-background {
+      width: 100%;
+      background: url('../img/background.jpg') no-repeat;
+      min-height: 350px;
+      padding-top: 100px;
+      color: $white;
+  }
+}
+
+#mechanic {
+  #mechanic-background {
+    width: 100%;
+    background: url('../img/mechanic/mechanic-background.jpg') no-repeat;
+    min-height: 350px;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: $white;
+  }
+  h3 {
+    //color: $success;
+  }
+  .section-title {
+    border-left-style: solid;
+    border-width: 4px;
+    border-color: #1779ba;
+  }
+}
