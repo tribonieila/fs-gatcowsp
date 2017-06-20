@@ -130,13 +130,16 @@
     padding-top: 20px;
     padding-left: 50px;
     color: $white;
+
   }
-  h3 {
-    //color: $success;
+  #testimonial-backgrouind {
+    width: 100%;
+    background: url('../img/mechanic/testimonial-bg.jpg') no-repeat;
+    min-height: 350px;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: $white;
+
   }
-  .section-title {
-    border-left-style: solid;
-    border-width: 4px;
-    border-color: #1779ba;
-  }
+
 }
