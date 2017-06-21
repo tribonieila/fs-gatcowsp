@@ -115,7 +115,7 @@
 #service {
   #service-background {
       width: 100%;
-      background: url('../img/background.jpg') no-repeat;
+      background: url('../img/background.jpg') no-repeat center ;
       min-height: 350px;
       padding-top: 100px;
       color: $white;
@@ -125,21 +125,24 @@
 #mechanic {
   #mechanic-background {
     width: 100%;
-    background: url('../img/mechanic/mechanic-background.jpg') no-repeat;
+    background: url('../img/mechanic/mechanic-background.jpg') no-repeat center;
     min-height: 350px;
     padding-top: 20px;
     padding-left: 50px;
     color: $white;
 
   }
-  #testimonial-backgrouind {
+  #testimonial-background {
     width: 100%;
-    background: url('../img/mechanic/testimonial-bg.jpg') no-repeat;
+    background: url('../img/mechanic/testimonial-bg.jpg') no-repeat center center;
     min-height: 350px;
     padding-top: 20px;
     padding-left: 50px;
     color: $white;
 
-  }
+    .thumbnail {
+      border-radius: 100%;
+    }
+    }
 
 }
