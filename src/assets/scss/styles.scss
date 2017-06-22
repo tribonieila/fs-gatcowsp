@@ -450,3 +450,44 @@ $card-product-hover-title-font-size: 1.4rem;
     width: 25px;
   }
 }
+
+.divider {
+  //background-color: #336BFF;
+  height: 100px;
+  widows: 100%;
+  li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+  }
+
+  .audi {
+    width: 105px;
+    height: 70px;
+    background: url('../img/logobrand/logocarbrand.png') -475px -85px;
+  }
+
+  .porsche {
+    width: 105px;
+    height: 70px;
+    background: url('../img/logobrand/logocarbrand.png') -245px -160px;
+  }
+
+  .vw {
+    width: 105px;
+    height: 70px;
+    background: url('../img/logobrand/logocarbrand.png') -360px -160px;
+  }
+
+  .infiniti {
+    width: 105px;
+    height: 70px;
+    background: url('../img/logobrand/logocarbrand.png') -14px -11px;
+  }
+  .mercedes-benz {
+    width: 105px;
+    height: 70px;
+    background: url('../img/logobrand/logocarbrand.png') -125px -11px;
+  }
+
+}
